@@ -16,11 +16,17 @@ def calculate_streak(submissions):
     
     # Calculate streak (consecutive days up to today)
     streak = 0
-    current_day = today
+    # Start the streak from yesterday (they still have time to submit for today)
+    current_day = today - timedelta(days=1)
     while True:
         if current_day in submission_dates:
             streak += 1
             current_day -= timedelta(days=1)
         else:
             break
+
+    # Count today at the end so it dosn't break the streak
+    if today in submission_dates:
+        streak += 1
+    
     return streak
