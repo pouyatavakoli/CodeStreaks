@@ -68,8 +68,8 @@ python3 -m CodeStreaks.main --emoji-art
 
 | Flag           | Description                                          |
 |----------------|----------------------------------------------------- |
-| --emoji-art    | Show help message and available flags                |
-| --help         | Generate streak visualization using emoji patterns   |
+| --help         | Show help message and available flags                |
+| --emoji-art    | Generate streak visualization using emoji patterns   |
 
 ## Testing 🧪
 
