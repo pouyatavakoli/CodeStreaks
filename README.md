@@ -22,19 +22,26 @@ A command-line tool to track competitive programming streaks on Codeforces for y
 ## Installation 📦
 
 1. Clone the repository:
+
 ```bash
 git clone --depth 1 https://github.com/pouyatavakoli/CodeStreaks.git
 cd CodeStreaks
 ```
+
 2. Install dependencies:
+
 ```bash
 pip3 install -r requirements.txt
 ```
+
 **Note:** Python 3.6+ is required (comes pre-installed on most modern systems)
 
 ## Configuration ⚙️
+
 Before running the script:
+
 - Add  all Codeforces handles to ```handles.txt``` (one per line) to track similar to this:
+
 ``` text
 tourist
 jiangly
@@ -43,11 +50,14 @@ orzdevinwang
 
 ## Usage 📟
 
-### Basic Tracking 
+### Basic Tracking
+
 this generates a basic leader board
+
 ```bash
 python3 -m CodeStreaks.main
 ```
+
 ### Generate Emoji Art Visualization
 
 ```bash
@@ -58,13 +68,13 @@ python3 -m CodeStreaks.main --emoji-art
 
 | Flag           | Description                                          |
 |----------------|----------------------------------------------------- |
-| --help         | Generate streak visualization using emoji patterns   |
 | --emoji-art    | Show help message and available flags                |
-
-
+| --help         | Generate streak visualization using emoji patterns   |
 
 ## Testing 🧪
+
 Run the test suite with:
+
 ```bash
 python3 -m unittest discover -s tests
 ```
