@@ -21,11 +21,17 @@ A command-line tool to track competitive programming streaks on Codeforces for y
 
 ## Installation 📦
 
-Clone the repository:
+1. Clone the repository:
 ```bash
 git clone --depth 1 https://github.com/pouyatavakoli/CodeStreaks.git
 cd CodeStreaks
 ```
+2. Install dependencies:
+```bash
+pip3 install -r requirements.txt
+```
+**Note:** Python 3.6+ is required (comes pre-installed on most modern systems)
+
 ## Configuration ⚙️
 Before running the script:
 - Add  all Codeforces handles to ```handles.txt``` (one per line) to track similar to this:
