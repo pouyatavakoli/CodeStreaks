@@ -15,4 +15,6 @@ def generate_emoji_art(submissions, period_length=30):
         )
         emoji_list.append("🟩" if has_submission else "🟥")
     
+    emoji_list.reverse()
+    
     return ''.join(emoji_list)
