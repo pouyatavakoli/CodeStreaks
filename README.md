@@ -80,9 +80,11 @@ python3 -m unittest discover -s tests
 ```
 
 ## Contributing 🤝
+
 Contributions are welcome! Please follow these steps:
 
-    1. Open an issue to discuss proposed changes
-    2. Fork the repository
-    3. Create a feature branch
-    4. Submit a pull request with detailed description
+    1.Check [TODO.md](TODO.md) for planned features
+    2. Open an issue to discuss proposed changes
+    3. Fork the repository
+    4. Create a feature branch
+    5. Submit a pull request with detailed description
