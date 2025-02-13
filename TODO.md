@@ -11,7 +11,7 @@ Help us improve CodeStreaks!
 - [ ] **Hard Mode** - Remove users from list if they lose their streak
 - [ ] **Streak Modes** - Add daily/weekly/monthly streak tracking options
 - [ ] **Question Tracking** - Track specific accepted questions for each user
-- [ ] **Alising** - set alias for users to show up in leader board instead of their cf handle
+- [ ] **Aliasing** - set alias for users to show up in leader board instead of their cf handle
 
 ---
 
