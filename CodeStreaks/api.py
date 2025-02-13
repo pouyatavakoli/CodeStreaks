@@ -7,7 +7,7 @@ def get_user_submissions(handle):
     """Fetch user submissions from Codeforces API with detailed logging."""
     try:
         # Start tracking progress
-        logger.info(f"Starting submissions fetch for {handle}")
+        #logger.info(f"Starting submissions fetch for {handle}")
         
         # API request
         url = f"https://codeforces.com/api/user.status?handle={handle}"
@@ -29,7 +29,7 @@ def get_user_submissions(handle):
         
         # Process successful response
         submissions = data['result']
-        logger.info(f"Successfully retrieved {len(submissions)} submissions for {handle}")
+        #logger.info(f"Successfully retrieved {len(submissions)} submissions for {handle}")
         return submissions
 
     except requests.exceptions.RequestException as e:
