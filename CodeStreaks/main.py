@@ -19,7 +19,10 @@ def main():
         if args.emoji_art:
             submissions = get_user_submissions(handle)
             emoji_art = generate_emoji_art(submissions)
-            print(f"{rank}. {handle}: {streak} days \t{emoji_art}")
+            if len(handle) > 9:
+                print(f"{rank}. {handle[:4]}...{handle[-2:]}: {streak} days \t{emoji_art}")
+            else:   
+                print(f"{rank}. {handle}: {streak} days \t{emoji_art}")
         else:
             print(f"{rank}. {handle}: {streak} days")
 
