@@ -70,6 +70,7 @@ python3 -m CodeStreaks.main --emoji-art
 |----------------|----------------------------------------------------- |
 | --help         | Show help message and available flags                |
 | --emoji-art    | Generate streak visualization using emoji patterns   |
+| --only-accepted| Only count the accepted submissions                  |
 
 ## Testing 🧪
 
