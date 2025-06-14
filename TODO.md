@@ -5,6 +5,7 @@ Help us improve CodeStreaks!
 ## High Priority
 
 - [ ] **API Optimization** - Cache submissions in JSON file each run to minimize API requests
+- [ ] **netwrok error** - proper error hangling when connection aborted 
 
 ## Others
 
