@@ -27,14 +27,21 @@ A command-line tool to track competitive programming streaks on Codeforces for y
 git clone --depth 1 https://github.com/pouyatavakoli/CodeStreaks.git
 cd CodeStreaks
 ```
-
-2. Install dependencies:
+2. Create a virtual environment (recommended):
 
 ```bash
-pip3 install -r requirements.txt
+python3 -m venv venv
+source venv/bin/activate 
+```
+
+3. Install dependencies:
+
+```bash
+pip install -r requirements.txt
 ```
 
 **Note:** Python 3.6+ is required (comes pre-installed on most modern systems)
+💡 You can deactivate the virtual environment anytime with ```deactivate```.
 
 ## Configuration ⚙️
 
